@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LUNA — Clothing Store</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h1 class="logo">LUNA</h1>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+            </div>
+
+            <button id="cartButton">
+                🛒 Cart (<span id="cartCount">0</span>)
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="small-title">NEW COLLECTION 2026</p>
+
+            <h2>Style that<br>feels like you.</h2>
+
+            <p>
+                Discover comfortable, modern and everyday
+                clothing designed for your style.
+            </p>
+
+            <a href="#shop" class="shop-button">
+                Shop Now
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+
+        <h2>Our Collection</h2>
+
+        <!-- Category Buttons -->
+        <div class="filters">
+
+            <button class="filter active" data-category="all">
+                All
+            </button>
+
+            <button class="filter" data-category="tops">
+                Tops
+            </button>
+
+            <button class="filter" data-category="bottoms">
+                Bottoms
+            </button>
+
+            <button class="filter" data-category="dresses">
+                Dresses
+            </button>
+
+        </div>
+
+
+        <!-- Products -->
+        <div class="products">
+
+            <div class="product" data-category="tops">
+
+                <div class="product-image">
+                    👕
+                </div>
+
+                <h3>Classic White Tee</h3>
+
+                <p>₹799</p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="product" data-category="tops">
+
+                <div class="product-image">
+                    👚
+                </div>
+
+                <h3>Oversized Shirt</h3>
+
+                <p>₹1,299</p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="product" data-category="bottoms">
+
+                <div class="product-image">
+                    👖
+                </div>
+
+                <h3>Classic Denim</h3>
+
+                <p>₹1,899</p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+
+            <div class="product" data-category="dresses">
+
+                <div class="product-image">
+                    👗
+                </div>
+
+                <h3>Summer Dress</h3>
+
+                <p>₹1,599</p>
+
+                <button class="add-cart">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2>About LUNA</h2>
+
+        <p>
+            LUNA is a modern clothing brand focused on
+            simple designs, comfortable fabrics and
+            effortless everyday style.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 LUNA Clothing</p>
+
+    </footer>
+
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
